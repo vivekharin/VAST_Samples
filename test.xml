@@ -25,7 +25,7 @@
             </TrackingEvents>
             <Duration>00:00:16</Duration>
             <MediaFiles>
-              <MediaFile delivery="streaming" type="application%2Fx-mpegURL">
+              <MediaFile delivery="streaming" type="application/x-mpegURL">
                 <![CDATA[ https://customer-wawhzly9n5z0ncxa.cloudflarestream.com/453969485ed570c2a3f0aae9f6d3911b/manifest/video.m3u8 ]]>
               </MediaFile>
             </MediaFiles>
