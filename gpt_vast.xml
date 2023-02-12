@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.2" xsi:noNamespaceSchemaLocation="vast.xsd">
+  <Ad id="1">
+    <InLine>
+      <AdSystem>OpenAI Ad Server</AdSystem>
+      <AdTitle>Example M3U8 Ad</AdTitle>
+      <Description>Example description of the M3U8 Ad</Description>
+      <Impression>
+        <![CDATA[https://openai.com/impressionTracker]]>
+      </Impression>
+      <Creatives>
+        <Creative id="1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="application/x-mpegURL" width="1280" height="720">
+                <![CDATA[https://customer-wawhzly9n5z0ncxa.cloudflarestream.com/453969485ed570c2a3f0aae9f6d3911b/manifest/video.m3u8]]>
+              </MediaFile>
+            </MediaFiles>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[https://openai.com/startTracker]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[https://openai.com/firstQuartileTracker]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[https://openai.com/midpointTracker]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[https://openai.com/thirdQuartileTracker]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://openai.com/completeTracker]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[https://openai.com/clickThrough]]>
+              </ClickThrough>
+              <ClickTracking>
+                <![CDATA[https://openai.com/clickTracking]]>
+              </ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
